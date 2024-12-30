@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #001b5a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #002e84;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 20%;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .main-content {
+            flex: 80%;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+        }
+        footer {
+            background-color: #001b5a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+        }
+        .main-content img {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Soccer</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="topic.html">Topic</a>
+        <a href="net.html">Net</a>
+        <a href="contact.html">Contact</a>
+        <a href="degree.html">Degree</a>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Soccer Legends</h2>
+            <ul>
+                <li>Pelé</li>
+                <li>Diego Maradona</li>
+                <li>Lionel Messi</li>
+                <li>Cristiano Ronaldo</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <section>
+                <h2>About Soccer</h2>
+                <p>Soccer, known as football outside the United States, is a globally beloved sport played by two teams of eleven players. The objective is to score goals by getting the ball into the opposing team's net without using hands or arms, except by the goalkeeper. The simplicity of the game's rules and minimal equipment requirements have contributed to its widespread popularity.</p>
+                <img src="data:image/jpeg;base64,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" alt="Soccer Ball">
+                <h3>History</h3>
+                <p>The origins of soccer date back over two millennia to ancient civilizations. However, the modern version of the game began to take shape in England in the mid-19th century. In 1863, the Football Association was established in England, formalizing the rules and distinguishing soccer from rugby. This pivotal moment laid the foundation for the sport's global development. :contentReference[oaicite:1]{index=1}</p>
+                <h3>Rules of the Game</h3>
+                <p>Soccer is played on a rectangular field with a goal at each end. The game consists of two 45-minute halves, with a 15-minute halftime break. Players, except for goalkeepers, are prohibited from using their hands or arms to control the ball. The team that scores the most goals by the end of the match wins. If the score is tied, the game may end in a draw or proceed to extra time and possibly a penalty shootout, depending on the competition's rules.</p>
+                <h3>Global Competitions</h3>
+                <p>Soccer boasts numerous prestigious tournaments that captivate audiences worldwide. The FIFA World Cup, held every four years, is the most renowned, featuring national teams from across the globe. Other significant competitions include the UEFA Champions League, which crowns the top club team in Europe, and domestic leagues such as the English Premier League, Spain's La Liga, and Italy's Serie A.</p>
+                <h3>Notable Players</h3>
+                <p>Throughout its history, soccer has been graced by exceptional talent. Legends like Pelé, who led Brazil to three World Cup victories, and Diego Maradona, famed for his remarkable skill and the "Hand of God" goal, have left indelible marks on the sport. In recent times, players like Lionel Messi and Cristiano Ronaldo have set new standards, breaking numerous records and earning multiple awards.</p>
+                
+            </section>
+        </div>
+    </div>
+    <footer>
+        
+        <p>© 2024 All Rights Reserved. Designed by Aitor de las Heras.</p>
+    </footer>
+</body>
+</html>
