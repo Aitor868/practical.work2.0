@@ -66,3 +66,9 @@ footer img {
     width: 30px;
     margin: 0 5px;
 }
+img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
+

@@ -1,99 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera - Mi Página Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #001b5a;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #002e84;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: #575757;
-        }
-
-        .container {
-            display: flex;
-            padding: 20px;
-        }
-
-        .sidebar {
-            flex: 20%;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-
-        .main-content {
-            flex: 80%;
-            padding: 20px;
-            background-color: #ffffff;
-            border: 1px solid #cccccc;
-        }
-
-        footer {
-            background-color: #001b5a;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        footer a {
-            color: white;
-            margin: 0 10px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        table th, table td {
-            border: 1px solid #cccccc;
-            padding: 8px;
-            text-align: left;
-        }
-
-        table th {
-            background-color: #f2f2f2;
-        }
-
-        .ects-column {
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asignatures</title>
+ <link rel="stylesheet" href="css/styles.css"> 
 </head>
 <body>
-    <header>
-        <h1>My Degree</h1>
-    </header>
+  <header>
+    <h1>Computer Science Asignatures</h1>
     <nav>
         <a href="../index.html">Home</a>
         <a href="about.html">About Me</a>
@@ -101,83 +16,81 @@
         <a href="net.html">Networks</a>
         <a href="contact.html">Contact</a>
         <a href="degree.html">Degree</a>
+        <a href="fce.html">FCE</a>
     </nav>
-    <main>
-        <section>
-            <h2>Computer Science</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Subject</th>
-                        <th>Description</th>
-                        <th class="ects-column">ECTS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Discrete Mathematics</td>
-                        <td>Introduces key concepts such as set functions, arithmetic, graph theory, and logic, which are essential for developing computational thinking.</td>
-                        <td class="ects-column">6</td>
-                    </tr>
-                    <tr>
-                        <td>Mathematics for Engineering I</td>
-                        <td>Designed to strengthen our understanding of linear algebra and optimization.</td>
-                        <td class="ects-column">8</td>
-                    </tr>
-                    <tr>
-                        <td>Mathematics for Engineering II</td>
-                        <td>Focuses on applying and developing knowledge of differential and integral calculus for real functions of one variable, and introduces differential calculus for functions of two variables.</td>
-                        <td class="ects-column">5</td>
-                    </tr>
-                    <tr>
-                        <td>Fundamentals of Computer Engineering</td>
-                        <td>Because this subject is so important to the degree, it has its own dedicated space.</td>
-                        <td class="ects-column">7</td>
-                    </tr>
-                    <tr>
-                        <td>Introduction to Programming</td>
-                        <td>Designed to provide foundational knowledge in programming, emphasizing algorithmic thinking, coding principles, and structured problem-solving.</td>
-                        <td class="ects-column">8</td>
-                    </tr>
-                    <tr>
-                        <td>Logic and Critical Thinking</td>
-                        <td>Helps improve our reasoning and problem-solving skills. It focuses on understanding university values, such as seeking truth and combining knowledge from different areas.</td>
-                        <td class="ects-column">3</td>
-                    </tr>
-                    <tr>
-                        <td>Knowledge Management and Personal Skills</td>
-                        <td>Aims to develop essential personal and professional skills, such as self-awareness, teamwork, leadership, and effective communication.</td>
-                        <td class="ects-column">6</td>
-                    </tr>
-                    <tr>
-                        <td>Electronics and Computer Technology</td>
-                        <td>Focuses on the fundamentals of electronics and their relationship with the physical operation of computers, peripherals, and communication systems.</td>
-                        <td class="ects-column">7</td>
-                    </tr>
-                    <tr>
-                        <td>Business and its Processes</td>
-                        <td>Explores business structures as open social organizations and economic production units.</td>
-                        <td class="ects-column">5</td>
-                    </tr>
-                    <tr>
-                        <td>Object-Oriented Programming</td>
-                        <td>Introduces the object-oriented programming (OOP) paradigm, emphasizing its benefits for software quality, particularly in terms of reusability, extensibility, and reliability.</td>
-                        <td class="ects-column">5</td>
-                    </tr>
-                    <tr>
-                        <td>History of Science and Technology</td>
-                        <td>Offers a comprehensive journey through the history of scientific discoveries and their technological applications.</td>
-                        <td class="ects-column">4</td>
-                    </tr>
-                    
-                  
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 All Rights Reserved. Designed by Aitor de las Heras.</p>
-    </footer>
+  </header>
+  <main>
+    <section>
+      <h2>First</h2>
+      <table>
+        <tr><th>Asignature</th><th>Description</th><th class="ects-column">ECTS</th></tr>
+        <tr><td>Discrete Mathematics</td><td>Introduces key concepts such as set functions, arithmetic, graph theory, and logic, which are essential for developing computational thinking.</td><td class="ects-column">6</td></tr>
+        <tr><td>Mathematics for Engineering I</td><td>Covers basic calculus and algebra concepts essential for engineering problem solving.</td><td class="ects-column">6</td></tr>
+        <tr><td>Mathematics for Engineering II</td><td>Continues with integral calculus, differential equations, and series with engineering applications.</td><td class="ects-column">6</td></tr>
+        <tr><td>Fundamentals of Computer Engineering</td><td>Introduces the basic principles of computer engineering including architecture, systems and software.</td><td class="ects-column">6</td></tr>
+        <tr><td>Introduction to Programming</td><td>Fundamental programming concepts using structured and object-oriented approaches.</td><td class="ects-column">6</td></tr>
+        <tr><td>Logic and Critical Thinking</td><td>Develops logical reasoning, argumentative skills and critical analysis.</td><td class="ects-column">3</td></tr>
+        <tr><td>Knowledge Management and Personal Skills</td><td>Enhances soft skills, time management, teamwork, and communication.</td><td class="ects-column">6</td></tr>
+        <tr><td>Electronics and Computer Technology</td><td>Basic electronics, digital systems, and computer hardware.</td><td class="ects-column">6</td></tr>
+        <tr><td>Business and Its Processes</td><td>Introduction to business structures, management and operational workflows.</td><td class="ects-column">6</td></tr>
+        <tr><td>Object-Oriented Programming</td><td>Advanced programming techniques focusing on object-oriented principles and design patterns.</td><td class="ects-column">6</td></tr>
+        <tr><td>History of Science and Technology</td><td>Explores the evolution of scientific thought and technological innovation.</td><td class="ects-column">3</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Second </h2>
+      <table>
+        <tr><th>Asignature</th><th>Description</th><th class="ects-column">ECTS</th></tr>
+        <tr><td>Data Structures and Algorithms</td><td>Techniques for data organization, searching, and sorting using different algorithmic paradigms.</td><td class="ects-column">6</td></tr>
+        <tr><td>Computer Architecture and Organization</td><td>Internal operation of computer systems, instruction sets and memory hierarchy.</td><td class="ects-column">6</td></tr>
+        <tr><td>Analysis and Design of Information Systems</td><td>Study of system development life cycle, modeling and documentation techniques.</td><td class="ects-column">6</td></tr>
+        <tr><td>Web Development</td><td>Frontend and backend web technologies, including HTML, CSS, JavaScript, and basic server-side programming.</td><td class="ects-column">6</td></tr>
+        <tr><td>Projects I</td><td>Initial experience in planning and managing IT development projects.</td><td class="ects-column">3</td></tr>
+        <tr><td>Anthropology and Social Responsibility</td><td>Explores human society, ethics, and responsible professional practices.</td><td class="ects-column">6</td></tr>
+        <tr><td>Statistics</td><td>Fundamentals of descriptive and inferential statistics applied to data analysis.</td><td class="ects-column">6</td></tr>
+        <tr><td>Databases I</td><td>Design and use of relational databases, SQL programming and data modeling.</td><td class="ects-column">6</td></tr>
+        <tr><td>Operating Systems</td><td>Core concepts of modern operating systems including process management, memory and file systems.</td><td class="ects-column">9</td></tr>
+        <tr><td>Software Engineering I</td><td>Foundations of software development process models, requirements and system design.</td><td class="ects-column">6</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Third</h2>
+      <table>
+        <tr><th>Asignature</th><th>Description</th><th class="ects-column">ECTS</th></tr>
+        <tr><td>Artificial Intelligence I</td><td>Basic concepts and techniques in AI including search algorithms and knowledge representation.</td><td class="ects-column">3</td></tr>
+        <tr><td>Software Engineering II</td><td>Advanced software development processes, maintenance and software lifecycle management.</td><td class="ects-column">6</td></tr>
+        <tr><td>Software Development and Integration</td><td>Focus on system integration, API usage, and software interoperability.</td><td class="ects-column">6</td></tr>
+        <tr><td>Human-Computer Interaction</td><td>Design principles for user-centered systems and usability evaluation.</td><td class="ects-column">6</td></tr>
+        <tr><td>Computational Complexity</td><td>Theoretical computer science: classes of problems and resource bounds.</td><td class="ects-column">6</td></tr>
+        <tr><td>Ethics and Professional Deontology</td><td>Professional responsibility and ethical issues in computing.</td><td class="ects-column">6</td></tr>
+        <tr><td>Systems Administration</td><td>Installation, configuration and maintenance of operating systems and services.</td><td class="ects-column">3</td></tr>
+        <tr><td>Advanced Databases</td><td>Non-relational databases, optimization, transactions and big data introduction.</td><td class="ects-column">3</td></tr>
+        <tr><td>Networks and Distributed Systems</td><td>Fundamentals of data communication, network protocols and distributed computing.</td><td class="ects-column">6</td></tr>
+        <tr><td>Projects II</td><td>Project-based course focused on multidisciplinary IT solutions development.</td><td class="ects-column">3</td></tr>
+        <tr><td>Statistical Learning and Data Mining</td><td>Data analysis using machine learning and statistical models.</td><td class="ects-column">6</td></tr>
+        <tr><td>Artificial Intelligence II</td><td>Advanced AI topics including planning, reasoning, and intelligent agents.</td><td class="ects-column">6</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Fourth</h2>
+      <table>
+        <tr><th>Asignature</th><th>Description</th><th class="ects-column">ECTS</th></tr>
+        <tr><td>Quality Management</td><td>Principles and techniques for quality assurance in software development.</td><td class="ects-column">3</td></tr>
+        <tr><td>High Performance Computing</td><td>Design and implementation of efficient computing solutions and parallelism.</td><td class="ects-column">6</td></tr>
+        <tr><td>The Question of God in the Digital Era</td><td>Humanistic reflection on technological development and spirituality.</td><td class="ects-column">3</td></tr>
+        <tr><td>Security</td><td>Introduction to cybersecurity, cryptography, and secure systems.</td><td class="ects-column">6</td></tr>
+        <tr><td>Entrepreneurship and Innovation</td><td>Strategies for innovation and launching technology-based ventures.</td><td class="ects-column">3</td></tr>
+        <tr><td>Project Management</td><td>Project lifecycle, planning, risk management and leadership.</td><td class="ects-column">9</td></tr>
+        <tr><td>Knowledge Engineering</td><td>Techniques for capturing, modeling, and processing knowledge.</td><td class="ects-column">6</td></tr>
+        <tr><td>Final Degree Project</td><td>Comprehensive project demonstrating all acquired skills and knowledge.</td><td class="ects-column">12</td></tr>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mi Web Académica</p>
+  </footer>
 </body>
 </html>
