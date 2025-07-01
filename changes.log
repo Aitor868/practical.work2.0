@@ -1,0 +1,39 @@
+# changes.log
+
+## [2025-07-01]
+
+### General Project Refactoring and Updates
+
+-   **Project Structure:**
+    -   Organized HTML files within the `public/` folder.
+    -   Organized CSS files within the `public/css/` folder.
+    -   Organized images within the `docs/images/` folder.
+    -   Created `public/documents/` folder to host PDF CV files.
+
+-   **CSS Styling (`public/css/styles.css`):**
+    -   Implemented an external CSS file (`styles.css`) for global website styling.
+    -   Defined styles for general elements (`body`, `header`, `nav`, `footer`).
+    -   Styled navigation and footer sections.
+    -   Implemented a flexible layout design (`.container`, `.sidebar`, `.main-content`) using Flexbox.
+    -   Applied responsive styles to all images (`img { max-width: 100%; height: auto; display: block; }`) to ensure they fit their containers.
+    -   Adjusted specific styles for footer images.
+
+-   **Curriculum Vitae Integration (`public/about.html`):**
+    -   Restructured the `about.html` page to directly integrate the detailed Curriculum Vitae (CV) content.
+    -   Included clear sections for Education, Work Experience, and Skills, using headings (`<h3>`) and lists (`<ul>`).
+    -   Incorporated personal photos (`photo1.jpg`, `photo2.jpg`) into the "About me" page.
+    -   Implemented a direct link to download the CV in PDF format, opening in a new tab (`target="_blank"`) and with a download prompt (`download="Aitor_CV.pdf"`).
+
+-   **Navigation and Links:**
+    -   Reviewed and adjusted link paths (`href`) in the navigation menu (`<nav>`) for all internal site pages.
+    -   Corrected image source paths (`src`) in HTML files to ensure proper display (`../images/photoX.jpg`).
+    -   Added and corrected the CSS file link in all HTML files (from `style.css` to `css/styles.css`) to ensure all styles are applied correctly.
+    -   Ensured visibility of previously empty links by adding text content.
+
+-   **Deployment Configuration (GitHub Pages):**
+    -   Prepared the repository for deployment via GitHub Pages.
+    -   Configured the `main` (or `master`) branch as the deployment source.
+    -   Defined the `public/` folder as the root directory for GitHub Pages, ensuring `index.html` serves as the main entry point.
+
+-   **Collaboration:**
+    -   Added `momartinufv` as a collaborator to the GitHub repository to facilitate teamwork and change uploads.
